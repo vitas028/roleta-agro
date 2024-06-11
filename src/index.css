@@ -1,0 +1,282 @@
+@import url(//fonts.googleapis.com/css?family=Vibur);
+@font-face {
+  font-family: Campton-Bold;
+  src: url('./assets/Campton-Bold.otf');
+}
+
+* {
+  font-family: Campton-Bold !important;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fcf4f7;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#wheel {
+  margin: 0 auto;
+  padding-top: 180px;
+  padding-left: 400px;
+  background: transparent;
+  border: none;
+  width: 100px;
+  border-radius: 50%;
+  height: 308px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+
+  /*box-shadow: 4px 10px 92px 85px rgba(3, 6, 86, 0.75);*/
+}
+
+.main_text {
+  position: absolute;
+  width: 10%;
+  left: 5%;
+  top: 5%;
+}
+
+.main_text p {
+  font-size: 3rem;
+  color: #045bbc;
+  -drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+}
+
+.icone-click {
+  width: 50px;
+  position: absolute;
+  left: 48.7%;
+  top: 46.5%;
+  pointer-events: none;
+}
+
+.left_img {
+  position: absolute;
+  left: 10%;
+  bottom: 70px;
+  display: flex;
+}
+
+.left_img img {
+  width: 250px;
+  -drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+.right_img img {
+  width: 250px;
+  -drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+.right_img {
+  position: absolute;
+  right: 10%;
+  bottom: 70px;
+  overflow: hidden;
+  outline: none;
+  user-select: none;
+  display: flex;
+}
+
+.right_img img {
+  width: 300px;
+}
+
+.right_up_img {
+  position: absolute;
+  right: 10%;
+  top: 70px;
+  overflow: hidden;
+  outline: none;
+  user-select: none;
+  display: flex;
+}
+
+.right_up_img img {
+  width: 300px;
+}
+
+.container_perguntas {
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  user-select: none;
+}
+
+.pergunta {
+  width: 100%;
+  height: auto;
+  color: #fff;
+  font-size: 2rem;
+  padding-bottom: 2%;
+}
+
+.infoPergunta {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.infoPergunta img {
+  -drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+}
+
+.pergunta p {
+  text-align: center;
+}
+
+.texto-pergunta {
+  width: 80%;
+  margin: auto;
+}
+
+.infoPergunta img {
+  width: 300px;
+}
+
+.botao-voltar {
+  width: 100%;
+  text-align: end;
+}
+
+.botao-voltar button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.botao-voltar button:hover {
+  background-color: #fff;
+}
+
+.botao-alternativa {
+  width: 100%;
+  height: 4.2rem;
+  margin-top: 2%;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.botao-alternativa:hover {
+  background-color: #fff !important;
+}
+
+.resposta-errada {
+  color: #bb1625;
+}
+
+.resposta-certa {
+  color: #055cba;
+}
+
+@media only screen and (max-width: 1200px) {
+  .right_img {
+    right: 3%;
+  }
+  .left_img {
+    left: 3%;
+  }
+  .main_text {
+    left: 3%;
+  }
+  .right_text {
+    right: 3%;
+  }
+  .icone-click {
+    width: 50px;
+    position: absolute;
+    left: 47%;
+    top: 46%;
+    pointer-events: none;
+    -drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+  }
+
+  .icone-click img {
+    -drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .right_img img {
+    width: 200px;
+  }
+  .left_img img {
+    width: 150px;
+  }
+  .main_text b,
+  .right_text b {
+    font: 400 6vh 'Vibur';
+  }
+  .container_perguntas {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .pergunta img {
+    width: 35%;
+  }
+
+  .botao-alternativa {
+    height: 8%;
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .main_text,
+  .right_text {
+    top: 8%;
+  }
+}
+
+/* @media only screen and (max-width: 510px) {
+  #wheel canvas {
+    height: 100%;
+  }
+} */
