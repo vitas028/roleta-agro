@@ -327,7 +327,7 @@ export const Perguntas = [
         valor: false,
       },
       {
-        texto: 'Custo da Produção, qualidade do leite e margem de lucro da empresa leiteira.',
+        texto: 'Custo da Produção, qualidade do leite e margem de lucro da empresa leiteira',
         valor: false,
       },
     ],
@@ -345,7 +345,7 @@ export const Perguntas = [
         valor: false,
       },
       {
-        texto: 'Vantagens: Menor custo operacional, facilidade de implementação. Desvantagens: Maior exigência de mão de obra qualificada, aumento do risco de lesões nas vacas.',
+        texto: 'Vantagens: Menor custo operacional, facilidade de implementação. Desvantagens: Maior exigência de mão de obra qualificada, aumento do risco de lesões nas vacas',
         valor: false,
       },
     ],
