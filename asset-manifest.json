@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/roleta-agro/static/css/main.ac04edc0.css",
+    "main.js": "/roleta-agro/static/js/main.0b5f6eb9.js",
+    "static/media/winner-bell-game-show.wav": "/roleta-agro/static/media/winner-bell-game-show.dd92b8620b60636d8bf1.wav",
+    "static/media/LogoEducampo.png": "/roleta-agro/static/media/LogoEducampo.e84e0bae5c35ec412490.png",
+    "static/media/bad-beep-incorrect.wav": "/roleta-agro/static/media/bad-beep-incorrect.0d8cd91514b5d7fe4086.wav",
+    "static/media/Campton-Bold.otf": "/roleta-agro/static/media/Campton-Bold.d63feafcf51c807bd9bd.otf",
+    "static/media/LogoSebrae.png": "/roleta-agro/static/media/LogoSebrae.ba579773d9721cde0759.png",
+    "static/media/marcasebrae.png": "/roleta-agro/static/media/marcasebrae.9a13f7f8039988f8ad24.png",
+    "index.html": "/roleta-agro/index.html",
+    "main.ac04edc0.css.map": "/roleta-agro/static/css/main.ac04edc0.css.map",
+    "main.0b5f6eb9.js.map": "/roleta-agro/static/js/main.0b5f6eb9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac04edc0.css",
+    "static/js/main.0b5f6eb9.js"
+  ]
+}
