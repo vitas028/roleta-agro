@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 const App = () => {
   const navigate = useNavigate();
 
-  const segments = ['Nutrição', 'Produção', 'Consumos'];
+  const segments = ['Nutrição', 'Produção', 'Consumo'];
   const segColors = ['#5B792F', '#005EB8', '#00919D'];
   const onFinished = (winner) => {
     //console.log(winner);
