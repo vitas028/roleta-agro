@@ -49,6 +49,7 @@ code {
 
 .main_text {
   position: absolute;
+  white-space: nowrap;
   width: 10%;
   left: 5%;
   top: 5%;

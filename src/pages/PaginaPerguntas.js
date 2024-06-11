@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { Perguntas } from '../Perguntas.js';
+import { Perguntas } from '../perguntas.js';
 import LogoSebrae from '../assets/LogoSebrae.png';
 import PerguntaCard from '../components/PerguntaCard';
 import MarcaSebrae from '../assets/marcasebrae.png';
@@ -9,9 +9,9 @@ export default function PaginaPerguntas() {
 
   let corTema = '';
 
-  if (tema === 'nutrição') {
+  if (tema === 'Nutrição') {
     corTema = '#5B792F';
-  } else if (tema === 'produção') {
+  } else if (tema === 'Produção') {
     corTema = '#005EB8';
   } else {
     corTema = '#00919D';

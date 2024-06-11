@@ -1,6 +1,6 @@
 export const Perguntas = [
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'Qual é a principal fonte de energia na dieta das vacas leiteiras?',
     alternativas: [
       {
@@ -18,7 +18,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'Qual é o principal componente sólido do leite?',
     alternativas: [
       {
@@ -36,7 +36,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'Qual mineral é crucial para a formação da estrutura óssea e para a prevenção de distúrbios como a hipocalcemia em vacas leiteiras?',
     alternativas: [
       {
@@ -54,7 +54,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'O que é TMR (Total Mixed Ration) na alimentação de vacas leiteiras?',
     alternativas: [
       {
@@ -66,7 +66,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'Qual é a temperatura ideal da água para vacas leiteiras?',
     alternativas: [
       {
@@ -81,7 +81,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'O que é uma dieta de alto teor de concentrado?',
     alternativas: [
       {
@@ -99,7 +99,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'Qual é o objetivo principal do monitoramento da composição do leite?',
     alternativas: [
       {
@@ -107,7 +107,7 @@ export const Perguntas = [
         valor: true,
       },
       {
-        texto: ' Aumentar a produção de leite',
+        texto: ' Aumentar a Produção de leite',
         valor: false,
       },
       {
@@ -117,7 +117,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'Qual é a principal forma de prevenir a acidose ruminal em vacas leiteiras?',
     alternativas: [
       {
@@ -129,13 +129,13 @@ export const Perguntas = [
         valor: false,
       },
       {
-        texto: 'Reduzir o consumo de água',
+        texto: 'Reduzir o Consumo de água',
         valor: false,
       },
     ],
   },
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'O que é a CCS (Contagem de Células Somáticas) no leite?',
     alternativas: [
       {
@@ -153,7 +153,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'Qual é a importância da vitamina E na dieta das vacas leiteiras?',
     alternativas: [
       {
@@ -165,13 +165,13 @@ export const Perguntas = [
         valor: false,
       },
       {
-        texto: 'Estimula a produção de leite',
+        texto: 'Estimula a Produção de leite',
         valor: false,
       },
     ],
   },
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'O que é o método de ordenha robotizada?',
     alternativas: [
       {
@@ -189,7 +189,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'O que é o pH ruminal e por que é importante para a saúde das vacas leiteiras?',
     alternativas: [
       {
@@ -197,7 +197,7 @@ export const Perguntas = [
         valor: true,
       },
       {
-        texto: 'É a quantidade de proteínas na dieta; afeta a produção de leite',
+        texto: 'É a quantidade de proteínas na dieta; afeta a Produção de leite',
         valor: false,
       },
       {
@@ -207,7 +207,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'O que é a secagem em vacas leiteiras?',
     alternativas: [
       {
@@ -215,7 +215,7 @@ export const Perguntas = [
         valor: true,
       },
       {
-        texto: 'Período após o parto, no qual a produção de leite é reduzida',
+        texto: 'Período após o parto, no qual a Produção de leite é reduzida',
         valor: false,
       },
       {
@@ -225,7 +225,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'O que é a ureia e qual é sua função na dieta das vacas leiteiras?',
     alternativas: [
       {
@@ -243,11 +243,11 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'nutrição',
+    tema: 'Nutrição',
     pergunta: 'O que é a relação energia-proteína na dieta das vacas leiteiras e por que é importante?',
     alternativas: [
       {
-        texto: ' Proporção balanceada entre energia e proteína na dieta; influencia na produção e na qualidade do leite',
+        texto: ' Proporção balanceada entre energia e proteína na dieta; influencia na Produção e na qualidade do leite',
         valor: true,
       },
       {
@@ -261,8 +261,8 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'consumo',
-    pergunta: 'Indivíduos com intolerância à lactose podem apresentar sintomas digestivos após o consumo de leite. Qual o mecanismo bioquímico por trás dessa intolerância?',
+    tema: 'Consumo',
+    pergunta: 'Indivíduos com intolerância à lactose podem apresentar sintomas digestivos após o Consumo de leite. Qual o mecanismo bioquímico por trás dessa intolerância?',
     alternativas: [
       {
         texto: 'Ausência da enzima lactase no intestino delgado, responsável pela digestão da lactose. ',
@@ -279,15 +279,15 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'consumo',
-    pergunta: 'O consumo de leite e derivados lácteos pode estar associado à redução do risco de osteoporose. Qual o mecanismo pelo qual esses alimentos contribuem para a saúde óssea?',
+    tema: 'Consumo',
+    pergunta: 'O Consumo de leite e derivados lácteos pode estar associado à redução do risco de osteoporose. Qual o mecanismo pelo qual esses alimentos contribuem para a saúde óssea?',
     alternativas: [
       {
         texto: 'Fornecem cálcio e vitamina D, nutrientes essenciais para a formação e manutenção dos ossos.',
         valor: true,
       },
       {
-        texto: 'Estimulam a produção de células ósseas e reduzem a atividade das células que reabsorvem os ossos.',
+        texto: 'Estimulam a Produção de células ósseas e reduzem a atividade das células que reabsorvem os ossos.',
         valor: false,
       },
       {
@@ -297,7 +297,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'consumo',
+    tema: 'Consumo',
     pergunta: 'A enriquecimento do leite com vitamina D é uma prática comum em diversos países. Qual a importância dessa ação para a saúde da população?',
     alternativas: [
       {
@@ -315,33 +315,33 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'produção',
-    pergunta: 'O bem-estar animal é um aspecto crucial na produção leiteira. Quais são os principais indicadores que podem ser utilizados para avaliar o bem-estar das vacas leiteiras?',
+    tema: 'Produção',
+    pergunta: 'O bem-estar animal é um aspecto crucial na Produção leiteira. Quais são os principais indicadores que podem ser utilizados para avaliar o bem-estar das vacas leiteiras?',
     alternativas: [
       {
         texto: 'Condição corporal, comportamento, acesso a água fresca e pastagens, e instalações adequadas.',
         valor: true,
       },
       {
-        texto: 'Nível de produção de leite, taxa de reprodução e incidência de doenças.',
+        texto: 'Nível de Produção de leite, taxa de reProdução e incidência de doenças.',
         valor: false,
       },
       {
-        texto: 'Custo da produção, qualidade do leite e margem de lucro da empresa leiteira.',
+        texto: 'Custo da Produção, qualidade do leite e margem de lucro da empresa leiteira.',
         valor: false,
       },
     ],
   },
   {
-    tema: 'produção',
-    pergunta: 'A ordenha robotizada vem ganhando espaço na produção leiteira moderna. Quais são as principais vantagens e desvantagens da utilização desse sistema em comparação com a ordenha tradicional?',
+    tema: 'Produção',
+    pergunta: 'A ordenha robotizada vem ganhando espaço na Produção leiteira moderna. Quais são as principais vantagens e desvantagens da utilização desse sistema em comparação com a ordenha tradicional?',
     alternativas: [
       {
         texto: 'Vantagens: Maior eficiência e higiene, redução da mão de obra, bem-estar animal. Desvantagens: Alto custo de implantação, necessidade de vacas adaptadas e infraestrutura específica.',
         valor: true,
       },
       {
-        texto: 'Vantagens: Menor tempo de ordenha, aumento da produção de leite. Desvantagens: Maior incidência de mastite, estresse para as vacas devido ao confinamento.',
+        texto: 'Vantagens: Menor tempo de ordenha, aumento da Produção de leite. Desvantagens: Maior incidência de mastite, estresse para as vacas devido ao confinamento.',
         valor: false,
       },
       {
@@ -351,7 +351,7 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'produção',
+    tema: 'Produção',
     pergunta: 'A composição do leite bovino pode variar de acordo com diversos fatores. Quais são os principais fatores que influenciam a qualidade nutricional do leite produzido por vacas leiteiras?',
     alternativas: [
       {
@@ -369,8 +369,8 @@ export const Perguntas = [
     ],
   },
   {
-    tema: 'produção',
-    pergunta: 'A mastite é uma infecção bacteriana comum na glândula mamária de vacas leiteiras. Quais são os principais impactos econômicos e sanitários da mastite na produção leiteira?',
+    tema: 'Produção',
+    pergunta: 'A mastite é uma infecção bacteriana comum na glândula mamária de vacas leiteiras. Quais são os principais impactos econômicos e sanitários da mastite na Produção leiteira?',
     alternativas: [
       {
         texto: 'Redução na qualidade do leite, perdas econômicas devido ao descarte de leite contaminado, aumento do uso de medicamentos veterinários.',
@@ -381,7 +381,7 @@ export const Perguntas = [
         valor: false,
       },
       {
-        texto: 'Diminuição na produção de leite, comprometimento do bem-estar animal e aumento do descarte de vacas doentes.',
+        texto: 'Diminuição na Produção de leite, comprometimento do bem-estar animal e aumento do descarte de vacas doentes.',
         valor: false,
       },
     ],
